@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherApp", "WeatherApp\WeatherApp.csproj", "{66E8C0D2-CA51-4476-887D-1217F93D1351}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenWeatherAPI", "..\OpenWeatherTest\OpenWeatherAPI\OpenWeatherAPI.csproj", "{665C7C78-A158-4219-8196-B675D5C3D458}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenWeatherAPITests", "..\OpenWeatherTest\OpenWeatherAPITests\OpenWeatherAPITests.csproj", "{59319EE9-9C60-49F9-AF9B-929E60DB7967}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OWApi_QuickTest", "..\OpenWeatherTest\OWApi_QuickTest\OWApi_QuickTest.csproj", "{8E0FF670-5248-4806-BBF9-C78D3B68E0F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{66E8C0D2-CA51-4476-887D-1217F93D1351}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66E8C0D2-CA51-4476-887D-1217F93D1351}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66E8C0D2-CA51-4476-887D-1217F93D1351}.Release|Any CPU.Build.0 = Release|Any CPU
+		{665C7C78-A158-4219-8196-B675D5C3D458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{665C7C78-A158-4219-8196-B675D5C3D458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{665C7C78-A158-4219-8196-B675D5C3D458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{665C7C78-A158-4219-8196-B675D5C3D458}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59319EE9-9C60-49F9-AF9B-929E60DB7967}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59319EE9-9C60-49F9-AF9B-929E60DB7967}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59319EE9-9C60-49F9-AF9B-929E60DB7967}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59319EE9-9C60-49F9-AF9B-929E60DB7967}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E0FF670-5248-4806-BBF9-C78D3B68E0F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E0FF670-5248-4806-BBF9-C78D3B68E0F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E0FF670-5248-4806-BBF9-C78D3B68E0F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E0FF670-5248-4806-BBF9-C78D3B68E0F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
