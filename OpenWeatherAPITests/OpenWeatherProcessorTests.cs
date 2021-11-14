@@ -44,7 +44,7 @@ namespace OpenWeatherAPITests
         public async void GetCurrentWeatherAsync_IfApiHelperNotInitialized_ThrowArgumentException()
         {
             //Arrange
-            OWP.ApiKey = "ADWE"; //matter pas trop si on le fait ou pas vu que c'est un singleton
+            OWP.ApiKey = "ADWE";
             //Act
             //Assert
             var ex = await Assert.ThrowsAsync<ArgumentException>(OWP.GetOneCallAsync);
