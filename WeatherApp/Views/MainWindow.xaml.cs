@@ -8,7 +8,7 @@ namespace WeatherApp
     /// </summary>
     public partial class MainWindow : Window
     {
-        TemperatureViewModel vm;
+        WindDataViewModel vm;
 
         public MainWindow()
         {
@@ -16,7 +16,7 @@ namespace WeatherApp
 
             /// TODO : Faire les appels de configuration ici ainsi que l'initialisation
 
-            vm = new TemperatureViewModel();
+            vm = new WindDataViewModel();
 
             DataContext = vm;           
         }

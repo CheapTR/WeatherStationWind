@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using OpenWeatherAPI;
+using System.Windows;
 
 namespace WeatherApp
 {
@@ -9,5 +10,9 @@ namespace WeatherApp
     /// </summary>
     public partial class App : Application
     {
+        public App()
+        {
+            ApiHelper.InitializeClient();
+        }
     }
 }

@@ -26,7 +26,8 @@ namespace WeatherApp.Services
             var result = new WindDataModel
             {
                 DateTime = DateTime.UnixEpoch.AddSeconds(currentWeather.DateTime),
-                Direction = currentWeather.Wind.Deg
+                Direction = currentWeather.Wind.Deg,
+                MetrePerSec = currentWeather.Wind.Speed
             };
             LastWindData = result;
             return result;
