@@ -15,6 +15,9 @@ namespace WeatherApp
             InitializeComponent();
 
             /// TODO : Faire les appels de configuration ici ainsi que l'initialisation
+            AppConfiguration.GetValue(Uid);
+            AppConfiguration.GetValue(Name);
+            AppConfiguration.GetValue(Title);
 
             vm = new TemperatureViewModel();
 
